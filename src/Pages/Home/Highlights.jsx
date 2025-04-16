@@ -27,7 +27,7 @@ const newsData = [
 
 const Highlights = () => {
     return (
-        <section className="py-16 ">
+        <section className="lg:py-16 py-10 ">
             <div className="container mx-auto px-5 lg:px-20">
                 <h2 className="md:text-4xl text-3xl font-bold text-center  lg:mb-14 mb-5">
                    <span className='text-[#1A237E]'> Highlights </span> of Impact
