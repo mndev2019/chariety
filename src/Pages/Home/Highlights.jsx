@@ -29,7 +29,7 @@ const Highlights = () => {
     return (
         <section className="py-16 ">
             <div className="container mx-auto px-5 lg:px-20">
-                <h2 className="text-4xl font-bold text-center  mb-14">
+                <h2 className="md:text-4xl text-3xl font-bold text-center  lg:mb-14 mb-5">
                    <span className='text-[#1A237E]'> Highlights </span> of Impact
                 </h2>
 

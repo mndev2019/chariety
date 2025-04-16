@@ -36,7 +36,7 @@ const Footer = () => {
                 <li className='pb-3 cursor-pointer'>How to Help</li>
               </ul>
             </div>
-            <div className="col-span-1 lg:p-0 pt-3">
+            <div className="col-span-1 lg:p-0 md:pt-3 pt-0">
               {/* <h3 className='text-white font-[600] lg:text-[25px] text-[15px]'>
                 Our Product
               </h3> */}

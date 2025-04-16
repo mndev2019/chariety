@@ -33,6 +33,7 @@ const Navbar = () => {
                 <NavLink
                     to="/"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Home
                 </NavLink>
@@ -41,6 +42,7 @@ const Navbar = () => {
                 <NavLink
                     to="/about"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     About Us
                 </NavLink>
@@ -49,6 +51,7 @@ const Navbar = () => {
                 <NavLink
                     to="/programs"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Programs
                 </NavLink>
@@ -57,6 +60,7 @@ const Navbar = () => {
                 <NavLink
                     to="/blogs"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     How to Help
                 </NavLink>
@@ -65,6 +69,7 @@ const Navbar = () => {
                 <NavLink
                     to="/donate"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Donate
                 </NavLink>
@@ -73,6 +78,7 @@ const Navbar = () => {
                 <NavLink
                     to="/testimonies"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Testimonies
                 </NavLink>
@@ -81,6 +87,7 @@ const Navbar = () => {
                 <NavLink
                     to="/contact"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
+                    onClick={() => setIsOpen(false)}
                 >
                     Contact Us
                 </NavLink>
@@ -96,7 +103,7 @@ const Navbar = () => {
 
     return (
         <>
-            <section className={`py-4 px-20 w-full ${location.pathname === '/' ? 'absolute' : 'relative'}`}>
+            <section className={`py-4 lg:px-20 px-10 w-full ${location.pathname === '/' ? 'absolute' : 'relative'}`}>
                 <div className="container mx-auto">
                     <div className="flex justify-between items-center">
                         {/* Logo */}

@@ -47,14 +47,14 @@ const Banner = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                                     {/* Left side: Text */}
                                     <div data-aos="fade-left">
-                                        <h2 className="text-5xl font-bold leading-tight mb-4">
+                                        <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold leading-tight mb-4">
                                             <span className="text-[#1A237E]">{slide.title.split(' ')[0]}</span>{' '}
                                             <span className="text-[#e87e00]">
                                                 {slide.title.split(' ').slice(1).join(' ')}
                                             </span>
                                         </h2>
                                         <div className="w-20 h-1 bg-[#e87e00] mb-4 rounded"></div>
-                                        <p className="text-[#1A237E] text-lg leading-relaxed">
+                                        <p className="text-[#1A237E] md:text-lg text-sm leading-relaxed">
                                             {slide.description}
                                         </p>
                                     </div>
@@ -62,7 +62,7 @@ const Banner = () => {
 
                                     {/* Right side: Image */}
                                     <div className="w-full justify-items-center" data-aos="fade-right">
-                                        <img src={slide.image} alt={`Slide ${index + 1}`} className='h-[500px] object-cover rounded-xl' />
+                                        <img src={slide.image} alt={`Slide ${index + 1}`} className='md:h-[500px] h-auto object-cover rounded-xl' />
                                     </div>
                                 </div>
                             </div>
