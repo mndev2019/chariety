@@ -107,7 +107,7 @@ const About = () => {
                                 </div>
 
                                 {/* Legend */}
-                                <div className="md:flex flex-col md:space-y-0 space-y-3 justify-center gap-8 mb-6 text-sm md:text-base font-medium text-gray-700">
+                                <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-4 mb-6 text-sm md:text-base font-medium text-gray-700">
                                     <div className="flex items-center gap-2">
                                         <div className="w-4 h-4 bg-[#1A237E] rounded-full"></div>
                                         Education (75%)
