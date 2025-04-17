@@ -39,11 +39,11 @@ const Banner = () => {
         <>
             {/* <section className="pt-20 pb-10 bg-gradient-to-r from-[#fef3e7] via-[#f1e4fc] to-[#e8eaf6] rounded-bl-[150px]"></section> */}
             <section className="pt-20 pb-10 bg-gradient-to-r from-[#e8eaf6] to-[#ffe7d6] rounded-bl-[150px]">
-                <div className="container mx-auto px-5 lg:px-20">
+                <div className="container mx-auto px-5 lg:px-20 ">
                     <Slider {...settings}>
                         {slides.map((slide, index) => (
                             <div key={index}>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center md:pt-0 pt-6">
                                     {/* Left side: Text */}
                                     <div data-aos="fade-left">
                                         <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold leading-tight mb-4">
