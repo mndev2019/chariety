@@ -1,6 +1,6 @@
 import React from 'react'
 // import logo from '../assets/Image/logo.jpg'
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import logo from '../assets/Image/logo.png'
 import { Link } from 'react-router-dom'
 
@@ -59,7 +59,7 @@ const Footer = () => {
                   <FaFacebookF className='text-white   md:text-[20px] text-[15px] cursor-pointer' />
                 </div>
                 <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#ff6900] hover:bg-[#e0b076f2] items-center justify-center flex'>
-                  <FaLinkedinIn className='text-white   md:text-[20px] text-[15px] cursor-pointer' />
+                  <FaWhatsapp className='text-white   md:text-[25px] text-[15px] cursor-pointer' />
                 </div>
               </div>
             </div>
