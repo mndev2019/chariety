@@ -1,25 +1,28 @@
 import React from 'react';
-import img1 from '../../assets/Image/highlights.jpg';
+import gallery1 from '../../assets/Image/gallery1.jpeg'
+import gallery2 from '../../assets/Image/gallery2.jpeg'
+import gallery3 from '../../assets/Image/gallery3.jpeg'
+import gallery4 from '../../assets/Image/gallery8.jpeg'
 
 
 const newsData = [
     {
-        img: img1,
+        img: gallery1,
         title: "Baba Iqbal Singh ji conferred Padma Shri",
         desc: "President of The Kalgidhar Trust honored Baba Iqbal Singh Ji for his social work. A moment of pride for all.",
     },
     {
-        img: img1,
+        img: gallery2,
         title: "Simrandeep Singh ranks 34th in UPSC",
         desc: "Mechanical engineer from Akal Academy Kauriwara secures 34th position in UPSC 2020.",
     },
     {
-        img: img1,
+        img: gallery3,
         title: "Book on Drug-Addiction Launched",
         desc: "A global fight against drug abuse continues. A new book spreads awareness on this critical issue.",
     },
     {
-        img: img1,
+        img: gallery4,
         title: "Canada Declares July 1 as ‘Sant Teja Singh Day’",
         desc: "British Columbia recognizes the contribution of Sant Teja Singh Ji to humanity and education.",
     },
@@ -27,10 +30,10 @@ const newsData = [
 
 const Highlights = () => {
     return (
-        <section className="lg:py-16 py-10 ">
+        <section className="lg:py-16 py-10">
             <div className="container mx-auto px-5 lg:px-20">
-                <h2 className="md:text-4xl text-3xl font-bold text-center  lg:mb-14 mb-5">
-                   <span className='text-[#1A237E]'> Highlights </span> of Impact
+                <h2 className="md:text-4xl text-3xl font-bold text-center text-[#1A237E]  lg:mb-14 mb-5">
+                     Highlights <span className='text-[#ff6900]'>of Impact</span>
                 </h2>
 
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">

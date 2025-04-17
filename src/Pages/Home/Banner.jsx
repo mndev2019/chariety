@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
-
 const Banner = () => {
     var settings = {
         arrows: false,
@@ -38,7 +37,7 @@ const Banner = () => {
     ];
     return (
         <>
-           {/* <section className="pt-20 pb-10 bg-gradient-to-r from-[#fef3e7] via-[#f1e4fc] to-[#e8eaf6] rounded-bl-[150px]"></section> */}
+            {/* <section className="pt-20 pb-10 bg-gradient-to-r from-[#fef3e7] via-[#f1e4fc] to-[#e8eaf6] rounded-bl-[150px]"></section> */}
             <section className="pt-20 pb-10 bg-gradient-to-r from-[#e8eaf6] to-[#ffe7d6] rounded-bl-[150px]">
                 <div className="container mx-auto px-5 lg:px-20">
                     <Slider {...settings}>

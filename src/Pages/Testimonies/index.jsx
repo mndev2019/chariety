@@ -1,13 +1,13 @@
 import React from 'react'
+import Gallery from './Gallery'
 
 const Testimonies = () => {
     return (
         <>
-            <section className="py-10 ">
+            <section className="py-10">
                 <div className="container mx-auto px-5 md:px-20">
-                    <h2 className="md:text-4xl text-3xl font-extrabold text-center text-[#1A237E] mb-3">Testimonies</h2>
-                    <p className="text-center text-lg text-[#e87e00] lg:mb-12 mb-5">Real stories from our community</p>
-
+                    <h2 className="md:text-4xl text-3xl font-extrabold text-center text-[#1A237E] mb-6">Testimonies</h2>
+                    {/* <p className="text-center text-lg text-[#e87e00] lg:mb-12 mb-5">Real stories from our community</p> */}
                     <div className="grid md:grid-cols-3 gap-8">
                         {[1, 2, 3].map((_, i) => (
                             <div
@@ -36,9 +36,7 @@ const Testimonies = () => {
                     </div>
                 </div>
             </section>
-
-
-
+            <Gallery />
         </>
     )
 }

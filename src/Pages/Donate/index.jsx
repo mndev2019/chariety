@@ -19,8 +19,8 @@ const Donate = () => {
         <section className="lg:py-16 py-10">
             <div className="container mx-auto px-5 md:px-20">
 
-                <h2 className="md:text-4xl text-3xl font-bold text-center  mb-4">
-                    <span className='text-[#1A237E]'>Be a Part of </span> Transformation
+                <h2 className="md:text-4xl text-3xl font-bold text-center text-[#1A237E]  mb-4">
+                    Be a Part of <span className='text-[#ff6900]'>Transformation</span>
                 </h2>
 
 
@@ -36,14 +36,14 @@ const Donate = () => {
 
                 <div className="text-center mt-12 max-w-4xl mx-auto text-gray-700 text-md leading-relaxed">
                     <p className="mb-4">
-                        Donate to The Kalgidhar Society – Baru Sahib supporting <span className="text-[#e87e00] font-semibold">Education, Healthcare, Social Welfare, Rehabilitation</span> and <span className="text-[#e87e00] font-semibold">Women Empowerment</span> for remote, rural and underprivileged people of India.
+                    Donate to Likeminded Education & Welfare Society <span className="text-[#e87e00] font-semibold">Education, Healthcare, Social Welfare, Rehabilitation</span> and <span className="text-[#e87e00] font-semibold">Women Empowerment</span> for remote, rural and underprivileged people of India.
                     </p>
                     <p className="mb-4">
-                        Make a secure, tax-deductible donation to The Kalgidhar Society, Baru Sahib.
+                        Make a secure, tax-deductible donation to Likeminded Education & Welfare Society.
                     </p>
                     <p>
                         For any information, contact our volunteers: <br />
-                        <strong>Gurpartap Singh</strong> – +91 98713 12313, <strong>Simir Kaur</strong> – +91 97111 93846.
+                        <strong>Gurpartap Singh</strong> – +91 0000000000, <strong>Simir Kaur</strong> – +91 0000000000.
                     </p>
                 </div>
                 <div className="flex justify-center">

@@ -71,7 +71,6 @@ const Programs = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }

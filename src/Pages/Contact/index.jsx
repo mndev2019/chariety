@@ -12,9 +12,9 @@ const Contact = () => {
                     <div className="grid grid-cols-1">
                         <div className="col-span-1 text-center">
                             <div className="text-center mb-5">
-                                <h2 className="md:text-4xl text-3xl font-bold text-gray-800 relative inline-block">
-                                    <span className='text-[#1A237E]'>Get </span>
-                                    In Touch
+                                <h2 className="md:text-4xl text-3xl font-bold text-[#1A237E] relative inline-block">
+                                Get
+                                   <span className='text-[#ff6900]'> In Touch</span>
                                 </h2>
                                 {/* <p className="text-gray-500 mt-2 text-lg">We are here to serve you.</p> */}
                             </div>

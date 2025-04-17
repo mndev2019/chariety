@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 import { CiMenuFries } from 'react-icons/ci';
 import { IoClose } from 'react-icons/io5';
+import logo from '../../src/assets/Image/logo.png'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -56,7 +57,7 @@ const Navbar = () => {
                     Programs
                 </NavLink>
             </li>
-            <li>
+            {/* <li>
                 <NavLink
                     to="/blogs"
                     className={({ isActive }) => isActive ? "text-[#1A237E]" : "hover:text-[#1A237E]"}
@@ -64,7 +65,7 @@ const Navbar = () => {
                 >
                     How to Help
                 </NavLink>
-            </li>
+            </li> */}
             <li>
                 <NavLink
                     to="/donate"
@@ -103,10 +104,10 @@ const Navbar = () => {
                     <div className="flex justify-between items-center">
                         {/* Logo */}
                         <NavLink to='/'>
-                            {/* <img src={logo} alt='Logo' className='h-[80px]' /> */}
-                            <p className='text-black font-xl text-bold'>
+                            <img src={logo} alt='Logo' className='h-[80px]' />
+                            {/* <p className='text-black font-xl text-bold'>
                                 Logo
-                            </p>
+                            </p> */}
                         </NavLink>
 
                         {/* Navbar links for larger screens */}

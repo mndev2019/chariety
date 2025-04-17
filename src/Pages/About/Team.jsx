@@ -6,7 +6,7 @@ const Team = () => {
             <section className="lg:py-16 py-10 bg-gradient-to-b from-orange-50 to-white" id="team">
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-center md:text-4xl text-3xl font-bold text-[#1A237E] mb-4">
-                        Our <span className="text-gray-800">Team</span>
+                        Our <span className="text-[#ff6900]">Team</span>
                     </h2>
                     <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
                         The Kalgidhar Trust/Society Board includes visionary leaders from across the world, united in their mission to empower communities through education, health, and social reform.

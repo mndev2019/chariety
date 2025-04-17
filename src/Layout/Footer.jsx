@@ -1,6 +1,8 @@
 import React from 'react'
 // import logo from '../assets/Image/logo.jpg'
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import logo from '../assets/Image/logo.png'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -11,10 +13,10 @@ const Footer = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
             <div className="col-span-1">
               <div className="w-full">
-                <h2 className='text-white fw-bold '>
+                {/* <h2 className='text-white fw-bold '>
                   Logo
-                </h2>
-                {/* <img src={logo} alt='image' className=' rounded-[5px] lg:h-[100px] h-[80px] ' /> */}
+                </h2> */}
+                <img src={logo} alt='image' className=' rounded-[5px] lg:h-[100px] h-[80px] bg-white p-2' />
                 <p className='text-white lg:text-[16px] text-[12px] lg:pt-4 pt-2 hover:text-[#e87e00]'>
                   1, Nivan, Plot No.96, S.V. Road
                 </p>
@@ -27,13 +29,11 @@ const Footer = () => {
               <h3 className='text-white font-[600] lg:text-[25px] text-[15px]'>
                 Our Company
               </h3>
-              <ul className='*:text-white *:hover:text-[#e87e00] *:lg:text-[16px] text-[12px] lg:pt-4 pt-2 '>
-                <li className='pb-3 cursor-pointer'>
-                  Home
-                </li>
-                <li className='pb-3 cursor-pointer'>About Us</li>
-                <li className='pb-3 cursor-pointer'>Programs</li>
-                <li className='pb-3 cursor-pointer'>How to Help</li>
+              <ul className='*:text-white *:hover:text-[#e87e00] *:lg:text-[16px] text-[12px] lg:pt-4 pt-2'>
+                <li className='pb-3 cursor-pointer'><Link to="/">Home</Link></li>
+                <li className='pb-3 cursor-pointer'><Link to="/about">About Us</Link></li>
+                <li className='pb-3 cursor-pointer'><Link to="/programs">Programs</Link></li>
+                
               </ul>
             </div>
             <div className="col-span-1 lg:p-0 md:pt-3 pt-0">
@@ -42,9 +42,9 @@ const Footer = () => {
               </h3> */}
               <ul className='*:text-white *:hover:text-[#e87e00] *:lg:text-[16px] text-[12px] lg:pt-10 pt-2 '>
 
-                <li className='pb-3 cursor-pointer'>Donate</li>
-                <li className='pb-3 cursor-pointer'>Testimonies</li>
-                <li className='pb-3 cursor-pointer'>Contact Us</li>
+                <li className='pb-3 cursor-pointer'><Link to="/donate">Donate</Link></li>
+                <li className='pb-3 cursor-pointer'><Link to="/testimonies">Testimonies</Link></li>
+                <li className='pb-3 cursor-pointer'><Link to="/contact">Contact Us</Link></li>
               </ul>
             </div>
             <div className="col-span-1 lg:p-0 pt-3">
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1">
             <div className="col-span-1 pt-10 text-center ">
-              <p className='text-white lg:text-[16px] text-[11px] font-[100] border-t border-[#bcafaf] pt-5'>© Copyright The Kalgidhar Society, Baru Sahib. All Rights Reserved.</p>
+              <p className='text-white lg:text-[16px] text-[11px] font-[100] border-t border-[#bcafaf] pt-5'>© Copyright Likeminded Education & Welfare Society. All Rights Reserved.</p>
 
             </div>
           </div>
