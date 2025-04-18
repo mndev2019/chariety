@@ -18,10 +18,11 @@ const Footer = () => {
                 </h2> */}
                 <img src={logo} alt='image' className=' rounded-[5px] lg:h-[100px] h-[80px] bg-white p-2' />
                 <p className='text-white lg:text-[16px] text-[12px] lg:pt-4 pt-2 hover:text-[#e87e00]'>
-                  1, Nivan, Plot No.96, S.V. Road
+                  1 NIVAN Plot no 96 Opp. Podar International School, Swami Vivekananda Rd
                 </p>
                 <p className='text-white lg:text-[16px] text-[12px] hover:text-[#e87e00]'>
-                  Khar West, Mumbai - 400052
+                  Khar West, Mumbai, Maharashtra 400052
+
                 </p>
               </div>
             </div>
@@ -33,7 +34,7 @@ const Footer = () => {
                 <li className='pb-3 cursor-pointer'><Link to="/">Home</Link></li>
                 <li className='pb-3 cursor-pointer'><Link to="/about">About Us</Link></li>
                 <li className='pb-3 cursor-pointer'><Link to="/programs">Programs</Link></li>
-                
+
               </ul>
             </div>
             <div className="col-span-1 lg:p-0 md:pt-3 pt-0">
@@ -58,9 +59,11 @@ const Footer = () => {
                 <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#ff6900] hover:bg-[#e0b076f2] items-center justify-center flex'>
                   <FaFacebookF className='text-white   md:text-[20px] text-[15px] cursor-pointer' />
                 </div>
-                <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#ff6900] hover:bg-[#e0b076f2] items-center justify-center flex'>
-                  <FaWhatsapp className='text-white   md:text-[25px] text-[15px] cursor-pointer' />
-                </div>
+                <a href="https://wa.me/919821420556" target="_blank" rel="noopener noreferrer">
+                  <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-[50%] bg-[#ff6900] hover:bg-[#e0b076f2] items-center justify-center flex'>
+                    <FaWhatsapp className='text-white md:text-[25px] text-[15px] cursor-pointer' />
+                  </div>
+                </a>
               </div>
             </div>
 

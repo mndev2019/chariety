@@ -13,8 +13,8 @@ const Contact = () => {
                         <div className="col-span-1 text-center">
                             <div className="text-center mb-5">
                                 <h2 className="md:text-4xl text-3xl font-bold text-[#1A237E] relative inline-block">
-                                Get
-                                   <span className='text-[#ff6900]'> In Touch</span>
+                                    Get
+                                    <span className='text-[#ff6900]'> In Touch</span>
                                 </h2>
                                 {/* <p className="text-gray-500 mt-2 text-lg">We are here to serve you.</p> */}
                             </div>
@@ -36,9 +36,9 @@ const Contact = () => {
                                 <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
                                     Email
                                 </h3>
-                                <p className="text-[14px] font-[500] text-center text-gray-600">
-                                    xyz@gmail.com
-                                </p>
+                                <a href="mailto:likemindedsoc@gmail.com" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                    likemindedsoc@gmail.com
+                                </a>
 
                                 {/* Bottom Border Highlight */}
                                 <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
@@ -59,9 +59,9 @@ const Contact = () => {
                                 <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
                                     Contact
                                 </h3>
-                                <p className="text-[14px] font-[500] text-center text-gray-600">
-                                    0000000000
-                                </p>
+                                <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                    9821420556
+                                </a>
 
                                 {/* Bottom Border Highlight */}
                                 <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
@@ -82,9 +82,9 @@ const Contact = () => {
                                 <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
                                     WhatsApp
                                 </h3>
-                                <p className="text-[14px] font-[500] text-center text-gray-600">
-                                    0000000000
-                                </p>
+                                <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                    9821420556
+                                </a>
 
                                 {/* Bottom Border Highlight */}
                                 <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
@@ -116,7 +116,7 @@ const Contact = () => {
                                     placeholder="Mobile no"
                                     className="w-full p-3 mb-4 border border-gray-200 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#e87e00] transition"
                                 />
-                                  <input
+                                <input
                                     type="text"
                                     placeholder="Email"
                                     className="w-full p-3 mb-4 border border-gray-200 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#e87e00] transition"
@@ -130,7 +130,7 @@ const Contact = () => {
                                 <button
                                     className="w-full py-3 bg-[#e87e00] hover:bg-[#d66e00] text-white font-medium rounded-full transition-all duration-300"
                                 >
-                                   Contact us
+                                    Contact us
                                 </button>
                             </div>
                         </div>
