@@ -21,74 +21,84 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-4 grid-cols-1  gap-4">
+
                         <div className="lg:col-span-2 col-span-1">
-                            <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
+                            <a href="mailto:likemindedsoc@gmail.com">
+                                <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
 
-                                {/* Decorative Gradient Stripe */}
-                                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
+                                    {/* Decorative Gradient Stripe */}
+                                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
 
-                                {/* Icon Wrapper */}
-                                <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
-                                    <MdOutlineMarkEmailRead className="text-[#1A237E] text-[30px]" />
+                                    {/* Icon Wrapper */}
+                                    <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
+                                        <MdOutlineMarkEmailRead className="text-[#1A237E] text-[30px]" />
+                                    </div>
+
+                                    {/* Content */}
+                                    <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
+                                        Email
+                                    </h3>
+                                    <a href="mailto:likemindedsoc@gmail.com" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                        likemindedsoc@gmail.com
+                                    </a>
+
+                                    {/* Bottom Border Highlight */}
+                                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
+                            </a>
 
-                                {/* Content */}
-                                <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
-                                    Email
-                                </h3>
-                                <a href="mailto:likemindedsoc@gmail.com" className="text-[14px] font-[500] text-center text-gray-600 block">
-                                    likemindedsoc@gmail.com
-                                </a>
-
-                                {/* Bottom Border Highlight */}
-                                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
-                            </div>
                         </div>
                         <div className=" col-span-1">
-                            <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
+                            <a href="tel:9821420556">
+                                <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
 
-                                {/* Decorative Gradient Stripe */}
-                                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
+                                    {/* Decorative Gradient Stripe */}
+                                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
 
-                                {/* Icon Wrapper */}
-                                <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
-                                    <IoCallOutline className="text-[#1A237E] text-[30px]" />
+                                    {/* Icon Wrapper */}
+                                    <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
+                                        <IoCallOutline className="text-[#1A237E] text-[30px]" />
+                                    </div>
+
+                                    {/* Content */}
+                                    <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
+                                        Contact
+                                    </h3>
+                                    <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                        9821420556
+                                    </a>
+
+                                    {/* Bottom Border Highlight */}
+                                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
+                            </a>
 
-                                {/* Content */}
-                                <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
-                                    Contact
-                                </h3>
-                                <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
-                                    9821420556
-                                </a>
-
-                                {/* Bottom Border Highlight */}
-                                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
-                            </div>
                         </div>
                         <div className=" col-span-1">
-                            <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
+                            <a href="tel:9821420556">
+                                <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
 
-                                {/* Decorative Gradient Stripe */}
-                                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
+                                    {/* Decorative Gradient Stripe */}
+                                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
 
-                                {/* Icon Wrapper */}
-                                <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
-                                    <FaWhatsapp className="text-[#1A237E] text-[30px]" />
+                                    {/* Icon Wrapper */}
+                                    <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
+                                        <FaWhatsapp className="text-[#1A237E] text-[30px]" />
+                                    </div>
+
+                                    {/* Content */}
+                                    <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
+                                        WhatsApp
+                                    </h3>
+                                    <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
+                                        9821420556
+                                    </a>
+
+                                    {/* Bottom Border Highlight */}
+                                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
+                            </a>
 
-                                {/* Content */}
-                                <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
-                                    WhatsApp
-                                </h3>
-                                <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
-                                    9821420556
-                                </a>
-
-                                {/* Bottom Border Highlight */}
-                                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
-                            </div>
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-5">
