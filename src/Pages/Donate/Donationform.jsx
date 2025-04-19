@@ -62,7 +62,7 @@ const Donationform = () => {
                             ))}
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <label className="block text-sm font-medium text-[#1A237E] mb-3">Select Frequency</label>
                         <div className="flex flex-wrap gap-4">
                             {["OneTime", " Monthly", "Quaterly", "Half-Yearly", "Yearly"].map((frequency) => (
@@ -72,7 +72,7 @@ const Donationform = () => {
                                 </label>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                     <div className="text-center">
                         <button type="submit" className="bg-[#1A237E] text-white px-6 py-2 rounded-full hover:bg-[#0f174c] transition">
                             Donate Now
