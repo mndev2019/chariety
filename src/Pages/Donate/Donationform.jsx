@@ -48,10 +48,14 @@ const Donationform = () => {
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">Pincode</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter pincode' />
                         </div>
+                        <div>
+                            <label className="block text-sm font-medium text-[#1A237E] mb-1">Enter Amount</label>
+                            <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter amount' />
+                        </div>
                     </div>
 
 
-                    <div>
+                    {/* <div>
                         <label className="block text-sm font-medium text-[#1A237E] mb-3">Select Amount</label>
                         <div className="flex flex-wrap gap-4">
                             {[500, 1000, 2500, 5000].map((amount) => (
@@ -61,7 +65,7 @@ const Donationform = () => {
                                 </label>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                     {/* <div>
                         <label className="block text-sm font-medium text-[#1A237E] mb-3">Select Frequency</label>
                         <div className="flex flex-wrap gap-4">
