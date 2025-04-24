@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { FaCircleCheck } from 'react-icons/fa6';
+import razorpay from '../../assets/Image/razorpay.svg'
+import qrcode from '../../assets/Image/qr-code.png'
+import qrcodeimg from '../../assets/Image/qrcodeimg.jpeg'
+import { IoClose } from 'react-icons/io5';
 
 const Donationform = () => {
+    const [selectedMethod, setSelectedMethod] = useState('');
     const [showPopup, setShowPopup] = useState(false);
 
     const handleSubmit = (e) => {
@@ -68,10 +73,44 @@ const Donationform = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className='col-span-1'>
+                        <div className='md:col-span-2 col-span-1'>
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">Other Amount</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter amount' />
                         </div>
+                        <div className="md:col-span-2 col-span-1 flex flex-wrap  gap-4">
+                            {/* Razorpay Payment Option */}
+                            <label className="inline-flex items-center bg-blue-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-blue-200">
+                                <input type="radio" name="amount" value="razorpay" className="mr-2 accent-blue-600" />
+                                <img src={razorpay} alt="Razorpay" className="h-5 w-auto mr-2" />
+                                {/* Pay with Razorpay */}
+                            </label>
+
+                            {/* QR Code Payment Option */}
+                            <label className="inline-flex items-center bg-blue-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-blue-200">
+                                <input type="radio" name="amount" value="qrcode" className="mr-2 accent-blue-600" onChange={() => setSelectedMethod('qrcode')}
+                                    checked={selectedMethod === 'qrcode'} />
+                                <img src={qrcode} alt="QR Code" className="h-5 w-auto mr-2" />
+                                Pay via QR Code
+                            </label>
+                            {/* Show QR code image when selected */}
+                            {selectedMethod === 'qrcode' && (
+                                <div className="fixed inset-0 bg-[#000000c7] bg-opacity-50 flex items-center justify-center z-50">
+                                    <div className="bg-white p-6 rounded-2xl shadow-lg max-w-md w-full text-center  relative">
+                                        <button
+                                            className="absolute top-0 right-1 text-gray-500 hover:text-red-500"
+                                            onClick={() => setSelectedMethod('')}
+                                        >
+                                            <IoClose className="w-10 h-10" />
+                                        </button>
+                                        <img src={qrcodeimg} alt='qrcode' />
+
+                                    </div>
+                                </div>
+                            )}
+
+                        </div>
+
+
                     </div>
 
 

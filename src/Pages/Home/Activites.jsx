@@ -58,7 +58,7 @@ const Highlights = () => {
                                 <h3 className="xl:text-xl text-lg font-semibold text-[#1A237E] mb-2">{item.title}</h3>
                                 <p className="text-gray-700 text-sm mb-5">{item.desc}</p>
                             </div>
-                            <button className="inline-block mt-auto py-2 border border-[#e87e00] text-[#e87e00] font-medium rounded-md hover:bg-[#e87e00] hover:text-white transition-all duration-300" onClick={() => navigate(item.path)}>
+                            <button className="inline-block mt-auto py-2 border border-[#e87e00] text-[#e87e00] font-medium rounded-md hover:bg-[#e87e00] hover:text-white transition-all duration-300 cursor-pointer" onClick={() => navigate(item.path)}>
                                 Read More
                             </button>
                         </div>

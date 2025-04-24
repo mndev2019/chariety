@@ -111,7 +111,7 @@ const Banner = () => {
 
                                         {/* Empty Image Side to match layout */}
                                         <div className="w-full justify-items-center" data-aos="fade-right">
-                                            <img src={banner1} alt={`Slide ${index}`} className='md:h-[500px] h-auto object-cover rounded-xl' />
+                                            <img src={banner2} alt={`Slide ${index}`} className='md:h-[500px] h-auto object-cover rounded-xl' />
                                         </div> 
                                     </div>
                                 ) : (

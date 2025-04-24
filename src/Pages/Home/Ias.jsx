@@ -32,12 +32,9 @@ const Ias = () => {
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad commodi quis aliquam aut sit pariatur eum facilis quidem adipisci aliquid amet laudantium voluptatem, iure libero culpa maxime ab iste excepturi!
                                     Laudantium dicta magnam quasi rerum minima optio nisi molestiae aperiam voluptatibus. Explicabo ut incidunt unde ex tempora ratione dignissimos at! Temporibus molestias nobis totam, officiis fugit voluptatum iure delectus beatae.
                                 </p>
-
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </section>
         </>

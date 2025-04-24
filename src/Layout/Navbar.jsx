@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
 import { CiMenuFries } from 'react-icons/ci';
 import { IoClose } from 'react-icons/io5';
 import logo from '../../src/assets/Image/logo.png'
 const Navbar = () => {
+    const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -93,6 +94,16 @@ const Navbar = () => {
                     Contact Us
                 </NavLink>
             </li>
+            <li className='lg:block hidden'>
+                <NavLink
+                    to="/donation-form"
+                    className="bg-[#ff6900] text-white px-4 py-2 rounded hover:bg-orange-600 transition"
+                    onClick={() => navigate('/donation-form')}
+                >
+                    Donate Now
+                </NavLink>
+            </li>
+
 
         </ul>
     );
