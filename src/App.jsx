@@ -9,6 +9,10 @@ import Contact from './Pages/Contact'
 import Testimonies from './Pages/Testimonies'
 import Donate from './Pages/Donate'
 import Donationform from './Pages/Donate/Donationform'
+import Eyecamp from './Pages/Home/Eyecamp'
+import StudentCounciling from './Pages/Home/StudentCounciling'
+import Ias from './Pages/Home/Ias'
+import Educationalmeet from './Pages/Home/Educationalmeet'
 
 function App() {
   const ThemeRoute = createBrowserRouter(
@@ -21,6 +25,10 @@ function App() {
         <Route path='/testimonies' element={<Testimonies/>}/>
         <Route path='/donate' element={<Donate/>}/>
         <Route path='/donation-form' element={<Donationform/>}/>
+        <Route path='/eye-camp' element={<Eyecamp/>}/>
+        <Route path='/student-council' element={<StudentCounciling/>}/>
+        <Route path='/ias' element={<Ias/>}/>
+        <Route path='/educational-meet' element={<Educationalmeet/>}/>
       </Route>
 
     )

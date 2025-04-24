@@ -2,10 +2,10 @@ import React from 'react';
 import india from '../../assets/Image/flag.png';
 import { useNavigate } from 'react-router-dom';
 const stats = [
-    { value: '129', label: 'Schools' },
-    { value: '2', label: 'Universities' },
-    { value: '5', label: 'States' },
-    { value: '33', label: 'Districts' },
+    { value: '120', label: 'Students' },
+    { value: '32', label: 'Higher Education Students' },
+    { value: '5', label: 'IAS Coaching' },
+    { value: '15+', label: 'Districts' },
     { value: '6450', label: 'Villages' },
     { value: '1.95M', label: 'Rural Population Impacted' },
 ];
@@ -18,12 +18,9 @@ const Donate = () => {
     return (
         <section className="lg:py-16 py-10">
             <div className="container mx-auto px-5 md:px-20">
-
                 <h2 className="md:text-4xl text-3xl font-bold text-center text-[#1A237E]  mb-4">
                     Be a Part of <span className='text-[#ff6900]'>Transformation</span>
                 </h2>
-
-
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center mt-10">
                     {stats.map((stat, i) => (
                         <div key={i} className="bg-white rounded-lg shadow-md py-6 px-4 hover:shadow-lg transition">
@@ -32,11 +29,9 @@ const Donate = () => {
                         </div>
                     ))}
                 </div>
-
-
                 <div className="text-center mt-12 max-w-4xl mx-auto text-gray-700 text-md leading-relaxed">
                     <p className="mb-4">
-                    Donate to Likeminded Education & Welfare Society <span className="text-[#e87e00] font-semibold">Education, Healthcare, Social Welfare, Rehabilitation</span> and <span className="text-[#e87e00] font-semibold">Women Empowerment</span> for remote, rural and underprivileged people of India.
+                        Donate to Likeminded Education & Welfare Society <span className="text-[#e87e00] font-semibold">Education, Healthcare, Social Welfare, Rehabilitation</span> and <span className="text-[#e87e00] font-semibold">Women Empowerment</span> for remote, rural and underprivileged people of India.
                     </p>
                     <p className="mb-4">
                         Make a secure, tax-deductible donation to Likeminded Education & Welfare Society.

@@ -36,10 +36,10 @@ const newsData = [
 const Highlights = () => {
     const navigate = useNavigate();
     return (
-        <section className="lg:pb-16 pb-10">
+        <section className="lg:py-16 py-10">
             <div className="container mx-auto px-5 xl:px-20 lg:px-10">
                 <h2 className="md:text-4xl text-3xl font-bold text-center text-[#1A237E]  lg:mb-14 mb-5">
-                    Highlights <span className='text-[#ff6900]'>of Impact</span>
+                    Activities
                 </h2>
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
                     {newsData.map((item, index) => (
@@ -64,7 +64,6 @@ const Highlights = () => {
                         </div>
                     ))}
                 </div>
-
             </div>
         </section>
 

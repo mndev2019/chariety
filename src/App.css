@@ -4,3 +4,36 @@ body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #fff7ed;
 }
+
+.slick-dots li {
+  background: #edcba1 !important;
+  width: 15px !important;
+  height: 8px !important;
+  border-radius: 20px;
+}
+
+.slick-dots li.slick-active {
+  background: #ff6900 !important;
+  width: 35px !important;
+  height: 8px !important;
+  border-radius: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0 !important;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 0;
+}
+
+ /* button {
+  opacity: 0;
+} */
+/* .slick-dots li button:before{
+  opacity: 0;
+} */
+.slick-dots li button{
+  opacity: 0;
+}

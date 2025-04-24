@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaUsers, FaTasks, FaCogs } from "react-icons/fa";
 import Team from "./Team";
+import how from '../../assets/Image/How we work pic.jpeg'
+import who from '../../assets/Image/Who are we pic.jpeg'
 
 const About = () => {
     const [activeTab, setActiveTab] = useState("who");
@@ -29,7 +31,8 @@ const About = () => {
                                     <FaUsers className="text-orange-500 text-2xl" />
                                     <h2 className="md:text-2xl text-xl font-bold">Who we are</h2>
                                 </div>
-                                <p className="text-gray-700 leading-relaxed text-justify">
+                                <img src={who} alt="image" className="lg:h-[400px] h-auto w-full rounded-md object-cover" />
+                                <p className="text-gray-700 leading-relaxed text-justify mt-4">
                                     We, the Likeminded Education &amp; Welfare Society is a society under the The Societies
                                     Registration Act, 1860.
                                 </p>
@@ -95,7 +98,7 @@ const About = () => {
                                 </div>
 
                                 {/* Circle design for 75-20-5 */}
-                                <div className="flex justify-center mb-8">
+                                {/* <div className="flex justify-center mb-8">
                                     <div className="relative w-48 h-48 rounded-full bg-[conic-gradient(#1A237E_0%_75%,#FB8C00_75%_95%,#FDD835_95%_100%)]">
                                         <div className="absolute inset-0 flex items-center justify-center">
                                             <div className="text-center text-white font-semibold">
@@ -104,10 +107,11 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Legend */}
-                                <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-4 mb-6 text-sm md:text-base font-medium text-gray-700">
+                                <img src={how} alt="image" className="lg:h-[400px] h-auto w-full rounded-md object-cover" />
+                                <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-4 my-6 text-sm md:text-base font-medium text-gray-700">
                                     <div className="flex items-center gap-2">
                                         <div className="w-4 h-4 bg-[#1A237E] rounded-full"></div>
                                         Education (75%)
