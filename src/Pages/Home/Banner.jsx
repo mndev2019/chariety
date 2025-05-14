@@ -126,7 +126,7 @@ const Banner = () => {
                                             <p className="text-[#1A237E] md:text-lg text-sm leading-relaxed pb-3">
                                                 {slide.description}
                                             </p>
-                                            <button className='bg-[#e87e00] text-white md:rounded-md rounded-[5px] md:text-[15px] text-[12px] px-6 md:py-2 py-1' onClick={() => navigate('/donate')}>Donate Now</button>
+                                            <button className='bg-[#e87e00] text-white md:rounded-md rounded-[5px] md:text-[15px] text-[12px] px-6 md:py-2 py-1' onClick={() => navigate('/donation-form')}>Donate Now</button>
                                         </div>
 
                                         <div className="w-full justify-items-center" data-aos="fade-right">
