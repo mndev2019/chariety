@@ -23,7 +23,7 @@ const Banner = () => {
 
     const slides = [
         {
-            isStats: true, 
+            isStats: true,
         },
         {
             title: "Delivering Quality Healthcare",
@@ -83,8 +83,7 @@ const Banner = () => {
                                                 <span className="text-[#1A237E]">Our</span>{' '}
                                                 <span className="text-[#e87e00]">Impact</span>
                                             </h2>
-                                            <div className="w-20 h-1 bg-[#e87e00] mb-6 rounded"></div>
-
+                                            <div className="w-20 h-1 bg-[#e87e00] mb-4 rounded"></div>
                                             <div className="grid grid-cols-2 gap-6 text-[#1A237E] text-lg font-medium">
                                                 <div>
                                                     <h3 className="md:text-4xl text-2xl font-bold text-[#ff6900]">120+</h3>
@@ -102,17 +101,17 @@ const Banner = () => {
                                                     <h3 className="md:text-4xl text-2xl font-bold text-[#ff6900]">15+</h3>
                                                     <p className='md:text-lg text-sm'>Districts</p>
                                                 </div>
-                                                
+
                                             </div>
                                             <div className='mt-3 '>
-                                            <button className='bg-[#e87e00] text-white md:rounded-md rounded-[5px] md:text-[15px] text-[12px] px-6 md:py-2 py-1 ' onClick={() => navigate('/donate')}>Donate Now</button>
+                                                <button className='bg-[#e87e00] text-white md:rounded-md rounded-[5px] md:text-[15px] text-[12px] px-6 md:py-2 py-1 ' onClick={() => navigate('/donation-form')}>Donate Now</button>
                                             </div>
                                         </div>
 
                                         {/* Empty Image Side to match layout */}
                                         <div className="w-full justify-items-center" data-aos="fade-right">
                                             <img src={banner2} alt={`Slide ${index}`} className='md:h-[500px] h-auto object-cover rounded-xl' />
-                                        </div> 
+                                        </div>
                                     </div>
                                 ) : (
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center md:pt-0 pt-6">

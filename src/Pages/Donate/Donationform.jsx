@@ -80,14 +80,14 @@ const Donationform = () => {
                         <div className="md:col-span-2 col-span-1 flex flex-wrap  gap-4">
                             {/* Razorpay Payment Option */}
                             <label className="inline-flex items-center bg-blue-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-blue-200">
-                                <input type="radio" name="amount" value="razorpay" className="mr-2 accent-blue-600" />
+                                <input type="radio" name="paymentmethod" value="razorpay" className="mr-2 accent-blue-600" />
                                 <img src={razorpay} alt="Razorpay" className="h-5 w-auto mr-2" />
                                 {/* Pay with Razorpay */}
                             </label>
 
                             {/* QR Code Payment Option */}
                             <label className="inline-flex items-center bg-blue-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-blue-200">
-                                <input type="radio" name="amount" value="qrcode" className="mr-2 accent-blue-600" onChange={() => setSelectedMethod('qrcode')}
+                                <input type="radio" name="paymentmethod" value="qrcode" className="mr-2 accent-blue-600" onChange={() => setSelectedMethod('qrcode')}
                                     checked={selectedMethod === 'qrcode'} />
                                 <img src={qrcode} alt="QR Code" className="h-5 w-auto mr-2" />
                                 Pay via QR Code

@@ -111,7 +111,7 @@ const About = () => {
 
                                 {/* Legend */}
                                 <img src={how} alt="image" className="lg:h-[400px] h-auto w-full rounded-md object-cover" />
-                                <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-4 my-6 text-sm md:text-base font-medium text-gray-700">
+                                {/* <div className="flex flex-col md:flex-row justify-center md:gap-8 gap-4 my-6 text-sm md:text-base font-medium text-gray-700">
                                     <div className="flex items-center gap-2">
                                         <div className="w-4 h-4 bg-[#1A237E] rounded-full"></div>
                                         Education (75%)
@@ -124,10 +124,10 @@ const About = () => {
                                         <div className="w-4 h-4 bg-[#FDD835] rounded-full"></div>
                                         Welfare (5%)
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Description */}
-                                <p className="text-gray-700 leading-relaxed text-justify">
+                                <p className="text-gray-700 leading-relaxed text-justify pt-4">
                                     In Education, we wish to support Free Education till XII, Free Education for B.Com/BBA/BA by providing financial assistance directly to the schools and colleges. Loans for Higher Education for Engineering and other courses, support for coaching classes for IAS, Banking, CA, and Armed Forces Exam preparation is also provided by directly supporting Institutions. We also collaborate with like-minded Societies to pool money and promote a shared Education agenda. <br /><br />
                                     Additionally, we aim to promote the Punjabi language up to Xth Class to help students read, write, and understand Gurbani—available for anyone interested.
                                 </p>

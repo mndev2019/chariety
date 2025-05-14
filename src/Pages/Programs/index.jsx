@@ -42,7 +42,7 @@ const Programs = () => {
                                 </ul>
                             </div>
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
                         </div>
                         {/* higher education */}
@@ -56,7 +56,7 @@ const Programs = () => {
                             </div>
 
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
                         </div>
                         {/*Competitive Exams */}
@@ -66,12 +66,12 @@ const Programs = () => {
                                 <ul className="list-disc ml-5 text-gray-800 space-y-2">
                                     <li>Support for Coaching classes for IAS , Banking , CA and Armed Forces Examination
                                         preparations</li>
-                                    <li>Collaborate with other similar Societies to pool money / Education agenda</li>
+                                    <li>Collaborate with other similar Societies to pool money / Education </li>
                                 </ul>
                             </div>
 
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
                         </div>
                         {/* skill development */}
@@ -86,7 +86,7 @@ const Programs = () => {
                             </div>
 
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
                         </div>
                         {/* health */}
@@ -102,7 +102,7 @@ const Programs = () => {
                             </div>
 
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
 
                         </div>
@@ -117,11 +117,9 @@ const Programs = () => {
                                         period of time in crisis (e.g.: COVID-19 , Floods , etc)</li>
                                 </ul>
                             </div>
-
                             <div className='mt-4'>
-                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donate')}>Donate Now</button>
+                                <button className='bg-[#e87e00] text-white rounded-md px-6 py-2' onClick={() => navigate('/donation-form')}>Donate Now</button>
                             </div>
-
                         </div>
                         {/* <div className="bg-[#1A237E] text-white rounded-xl p-6 shadow-md">
                             <h3 className="text-lg font-semibold mb-3 text-orange-400">1. Education</h3>

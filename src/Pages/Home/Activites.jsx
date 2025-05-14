@@ -1,35 +1,35 @@
 import React from 'react';
-import eyecamp from '../../assets/Image/Eye Camp.jpeg'
-import stucounciling from '../../assets/Image/Students Counseling Session for Highlights.jpeg'
-import ias from '../../assets/Image/Sponsored Students for IAS.jpeg'
+import Student from '../../assets/Image/activitycouncelling.jpeg'
+import Gurpurab from '../../assets/Image/Gurupurab Celebration.jpg'
+import Interaction from '../../assets/Image/Interaction With Industry Experts.jpeg'
 import meet from '../../assets/Image/Educational Meet.jpeg'
 import { useNavigate } from 'react-router-dom';
 
 
 const newsData = [
     {
-        img: eyecamp,
-        title: "Eye Camp",
-        desc: "President of The Kalgidhar Trust honored Baba Iqbal Singh Ji for his social work. A moment of pride for all.",
-        path: '/eye-camp'
+        img: Student,
+        title: "Student Counseling Sessions",
+        desc: "Guiding students to make informed academic and career choices with confidence.",
+        path: '/activity-counciling'
     },
     {
-        img: stucounciling,
-        title: "Sponsored Student counceling sessions",
-        desc: "Mechanical engineer from Akal Academy Kauriwara secures 34th position in UPSC 2020.",
-        path: '/student-council'
+        img: Gurpurab,
+        title: "Gurpurab Celebrations",
+        desc: "A spiritual and joyous occasion marked with prayers, kirtan, and community service. A moment of devotion and unity for all.",
+        path: '/gurupurab-celebration'
     },
     {
-        img: ias,
-        title: "Sponsored Students for IAS",
-        desc: "A global fight against drug abuse continues. A new book spreads awareness on this critical issue.",
-        path: '/ias'
+        img: Interaction,
+        title: "Interaction with Industry Experts",
+        desc: "Providing students with real-world insights through engaging sessions with industry professionals—bridging the gap between academics and the workplace.",
+        path: '/industry-intraction'
     },
     {
         img: meet,
-        title: "Educational Meet",
-        desc: "British Columbia recognizes the contribution of Sant Teja Singh Ji to humanity and education.",
-        path: '/educational-meet'
+        title: "Sponsored Student Activities",
+        desc: "Encouraging talent and creativity through funded programs that support student participation in cultural, academic, and sports events.",
+        path: '/student-activities'
     },
 ];
 
