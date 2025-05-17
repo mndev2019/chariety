@@ -80,7 +80,7 @@ const Contact = () => {
 
                                     {/* Decorative Gradient Stripe */}
                                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1A237E] via-[#1A237E] to-[#e87e00] rounded-t-xl"></div>
-                                     <img src={whatsupqr} alt='whatsupqr' className='h-20 mx-auto'/>
+                                    <img src={whatsupqr} alt='whatsupqr' className='h-20 mx-auto' />
                                     {/* Icon Wrapper */}
                                     {/* <div className="icon h-[60px] w-[60px] rounded-full border-2 border-dotted border-[#e87e00] items-center justify-center flex mx-auto bg-[#f9f9f9] shadow-md">
                                         <FaWhatsapp className="text-[#1A237E] text-[30px]" />
@@ -88,7 +88,7 @@ const Contact = () => {
 
                                     {/* Content */}
                                     <h3 className="text-[20px] font-[700] text-center mt-4 text-[#1A237E] group-hover:text-[#e87e00] transition-all">
-                                      Help Chat on Whatsapp
+                                        Help Chat on Whatsapp
                                     </h3>
                                     {/* <a href="tel:9821420556" className="text-[14px] font-[500] text-center text-gray-600 block">
                                         9821420556
@@ -106,7 +106,7 @@ const Contact = () => {
                             <div className="w-full h-full">
                                 <iframe
                                     className="w-full h-full"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093697!2d144.95373631531672!3d-37.81627944202139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727b7f5744384a!2sMelbourne%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sin!4v1631342009473!5m2!1sen!2sin"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.869859437364!2d72.83453487520522!3d19.069458682133774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9102ea028c3%3A0xe204380741059c39!2sNivan!5e0!3m2!1sen!2sin!4v1747477314053!5m2!1sen!2sin"
                                     allowFullScreen=""
                                     loading="lazy"
                                 ></iframe>
