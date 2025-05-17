@@ -75,7 +75,7 @@ const Contact = () => {
 
                         </div>
                         <div className=" col-span-1">
-                            <a href="tel:9821420556">
+                            <a href="https://wa.me/919821420556">
                                 <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
 
                                     {/* Decorative Gradient Stripe */}
