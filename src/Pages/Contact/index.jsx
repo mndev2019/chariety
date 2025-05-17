@@ -98,7 +98,6 @@ const Contact = () => {
                                     <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
                             </a>
-
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-5">

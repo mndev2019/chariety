@@ -6,6 +6,7 @@ import qrcodeimg from '../../assets/Image/qrcodeimg.jpeg'
 import { IoClose } from 'react-icons/io5';
 
 const Donationform = () => {
+    const [selectedAmount, setSelectedAmount] = useState('');
     const [selectedMethod, setSelectedMethod] = useState('');
     const [showPopup, setShowPopup] = useState(false);
 
@@ -23,7 +24,6 @@ const Donationform = () => {
                 <h2 className="md:text-4xl text-3xl font-bold text-center text-[#1A237E] mb-10">
                     Make a <span className="text-[#e87e00]">Donation</span>
                 </h2>
-
                 <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-lg p-8 space-y-6 border-t-5 border-[#e87e00]">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className='col-span-1'>
@@ -67,16 +67,25 @@ const Donationform = () => {
                             <div className="flex flex-wrap gap-4">
                                 {["₹ 500", "₹ 1000", "₹ 2500", "₹ 5000", "₹ 10000", "₹ 20000", "Other Amount"].map((amount) => (
                                     <label key={amount} className="inline-flex items-center bg-orange-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-orange-200">
-                                        <input type="radio" name="amount" value={amount} className="mr-2 accent-[#e87e00]" />
+                                        <input
+                                            type="radio"
+                                            name="amount"
+                                            value={amount}
+                                            onChange={() => setSelectedAmount(amount)}
+                                            className="mr-2 accent-[#e87e00]"
+                                        />
                                         {amount}
                                     </label>
                                 ))}
                             </div>
                         </div>
-                        <div className='md:col-span-2 col-span-1'>
-                            <label className="block text-sm font-medium text-[#1A237E] mb-1">Other Amount</label>
-                            <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter amount' />
-                        </div>
+                        {
+                            selectedAmount === "Other Amount" &&
+                            <div className='md:col-span-2 col-span-1'>
+                                <label className="block text-sm font-medium text-[#1A237E] mb-1">Other Amount</label>
+                                <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter amount' />
+                            </div>
+                        }
                         <div className="md:col-span-2 col-span-1 flex flex-wrap  gap-4">
                             {/* Razorpay Payment Option */}
                             <label className="inline-flex items-center bg-blue-100 text-[#1A237E] px-4 py-2 rounded-full cursor-pointer hover:bg-blue-200">
