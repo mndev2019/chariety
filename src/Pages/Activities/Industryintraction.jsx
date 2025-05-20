@@ -18,11 +18,10 @@ const Industryintraction = () => {
                                 />
                             </div>
                         </div>
-
                         <div className="col-span-12 md:col-span-7">
                             <div className="w-full space-y-3">
                                 <h2 className="md:text-2xl text-lg font-bold text-[#ff6900] md:pt-0 pt-4">
-                                   Interaction with Industry Experts
+                                    Interaction with Industry Experts
                                 </h2>
                                 <p className="text-justify xl:text-[18px] text-[15px] text-gray-700">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum excepturi earum ex soluta. Qui blanditiis dicta illo reprehenderit dolores corrupti ipsam, impedit nulla doloribus commodi fuga magni ex ad molestiae!

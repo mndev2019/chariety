@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
-
-import { IoCallOutline, IoLocationOutline, IoPersonCircleOutline } from 'react-icons/io5'
+import { IoCallOutline } from 'react-icons/io5'
 import { MdOutlineMarkEmailRead } from 'react-icons/md'
 import whatsupqr from '../../assets/Image/whatsupqrcode.png'
 const Contact = () => {
@@ -21,7 +20,6 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="grid lg:grid-cols-4 grid-cols-1  gap-4">
-
                         <div className="lg:col-span-2 col-span-1">
                             <a href="mailto:likemindedsoc@gmail.com">
                                 <div className="w-full h-full shadow-[0px_0px_20px_rgba(0,0,0,0.1)] p-6 rounded-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl bg-white">
@@ -46,7 +44,6 @@ const Contact = () => {
                                     <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
                             </a>
-
                         </div>
                         <div className=" col-span-1">
                             <a href="tel:9821420556">
@@ -72,7 +69,6 @@ const Contact = () => {
                                     <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#e87e00] rounded-full mt-3 group-hover:w-24 transition-all duration-300"></div>
                                 </div>
                             </a>
-
                         </div>
                         <div className=" col-span-1">
                             <a href="https://wa.me/919821420556">
@@ -114,7 +110,6 @@ const Contact = () => {
                         <div className="col-span-1">
                             <div className="w-full h-full bg-white rounded-xl shadow-lg px-6 py-8 border border-[#f0f0f0]">
                                 <h3 className="text-xl font-semibold text-[#1A237E] mb-6 text-center">Get In Touch</h3>
-
                                 <input
                                     type="text"
                                     placeholder="Your Name"

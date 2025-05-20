@@ -9,12 +9,12 @@ const Donationform = () => {
     const [selectedAmount, setSelectedAmount] = useState('');
     const [selectedMethod, setSelectedMethod] = useState('');
     const [showPopup, setShowPopup] = useState(false);
+    // const [qrscanned , setqrscanned] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         setShowPopup(true);
     };
-
     const closePopup = () => {
         setShowPopup(false);
     };
@@ -42,22 +42,18 @@ const Donationform = () => {
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">PAN No.</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter pan no' />
                         </div>
-
                         <div className='col-span-1'>
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">Address</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter address' />
                         </div>
-
                         <div className='col-span-1'>
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">City</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter city' />
                         </div>
-
                         <div className='col-span-1'>
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">State</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter state' />
                         </div>
-
                         <div className='col-span-1'>
                             <label className="block text-sm font-medium text-[#1A237E] mb-1">Pincode</label>
                             <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#e87e00]" placeholder='Enter pincode' />
@@ -108,6 +104,7 @@ const Donationform = () => {
                                         <button
                                             className="absolute top-0 right-1 text-gray-500 hover:text-red-500"
                                             onClick={() => setSelectedMethod('')}
+
                                         >
                                             <IoClose className="w-10 h-10" />
                                         </button>
@@ -116,13 +113,20 @@ const Donationform = () => {
                                     </div>
                                 </div>
                             )}
+                            {/* {selectedMethod === 'qrcode' && (
+                                <div className='col-span-1'>
+                                    <label className="block text-sm font-medium text-[#1A237E] mb-1">Upload Image</label>
+                                    <input
+                                        type="file"
+                                        accept="image/*"
+                                        className="w-full border border-gray-300 rounded-lg px-2 py-2 text-sm file:mr-4 file:py-1 file:px-2 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-orange-100 file:text-[#1A237E] hover:file:bg-orange-200"
+                                    />
+                                </div>
+                            )
 
+                            } */}
                         </div>
-
-
                     </div>
-
-
                     <div className="text-center">
                         <button type="submit" className="bg-[#1A237E] text-white px-6 py-2 rounded-full hover:bg-[#0f174c] transition">
                             Donate Now
